@@ -23,6 +23,9 @@ def self.drop_table
   DB[:conn].execute(sql)
 end
 
+def new_from_db
+  
+
 
   
   
