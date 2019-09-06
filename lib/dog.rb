@@ -17,12 +17,14 @@ end
 
 def self.drop_table
   sql = <<-SQL
-  DROP TABLE IF EXISTS dog
+  DROP TABLE dogs
   
   SQL
   
   DB[:conn].execute(sql)
 end
+
+
   
   
   
