@@ -16,7 +16,7 @@ end
 
 def self.drop_table
   sql = <<-SQL
-  DROP TABLE dog
+  DROP TABLE dogs
   
   SQL
   
